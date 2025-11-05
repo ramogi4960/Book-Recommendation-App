@@ -14,8 +14,8 @@ export default function Login() {;
                 style={loginStyles.image}
             />
             <View style={loginStyles.formContainer}>
-                <EmailInput />
-                <PasswordInput />
+                <EmailInput type="email" label="Email" />
+                <PasswordInput label="Password" />
                 <LoginButton />
                 <View style={loginStyles.linkContainer}>
                     <Text style={loginStyles.signUpText}>Don't have an acount? </Text>
