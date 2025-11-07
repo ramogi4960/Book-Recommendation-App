@@ -2,15 +2,15 @@ import { loginStyles } from "@/assets/styles/loginStyles";
 import { Image } from "expo-image";
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
-import EmailInput from "../components/emailInput";
-import LoginButton from "../components/loginButton";
-import PasswordInput from "../components/passwordInput";
+import EmailInput from "./components/emailInput";
+import LoginButton from "./components/loginButton";
+import PasswordInput from "./components/passwordInput";
 
 export default function Login() {;
     return (
         <View style={loginStyles.container}>
             <Image
-                source={require("../../assets/images/books.png")}
+                source={require("../assets/images/books.png")}
                 style={loginStyles.image}
             />
             <View style={loginStyles.formContainer}>

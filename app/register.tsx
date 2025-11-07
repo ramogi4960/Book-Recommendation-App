@@ -1,9 +1,9 @@
 import { RegisterStyles } from "@/assets/styles/registerStyles";
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
-import EmailInput from "../components/emailInput";
-import PasswordInput from "../components/passwordInput";
-import RegisterButton from "../components/registerButton";
+import EmailInput from "./components/emailInput";
+import PasswordInput from "./components/passwordInput";
+import RegisterButton from "./components/registerButton";
 
 export default function Register() {
     return (
